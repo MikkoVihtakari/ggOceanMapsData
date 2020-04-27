@@ -2,6 +2,8 @@ ggOceanMapsData
 ================
 Mikko Vihtakari (Institute of Marine Research)
 
+**Spatial Data Repository for ggOceanMaps. R package version 0.1.2**
+
 This is a spatial data repository package for the
 [**ggOceanMaps**](https://github.com/MikkoVihtakari/ggOceanMaps) R
 package. The package provides low-resolution shapefiles required by
