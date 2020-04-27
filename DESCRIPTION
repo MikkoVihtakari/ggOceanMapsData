@@ -1,0 +1,16 @@
+Package: ggOceanMapsData
+Type: Package
+Title: Spatial Data Repository for ggOceanMaps
+Version: 0.1.0
+Date: 2020-04-26
+Authors@R: c(person("Mikko", "Vihtakari", email = "mikko.vihtakari@hi.no",
+                  role = c("aut", "cre"), 
+                  comment = "Institute of Marine Research"))
+URL: https://github.com/MikkoVihtakari/ggOceanMapsData
+BugReports: https://github.com/MikkoVihtakari/ggOceanMaps/issues
+Description: A data package for ggOceanMaps containing low-resolution shapefiles.
+Depends: R (>= 3.5.0), ggOceanMaps
+License: GPL-3 | file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
