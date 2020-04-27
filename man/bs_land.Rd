@@ -3,9 +3,9 @@
 \docType{data}
 \name{bs_land}
 \alias{bs_land}
-\title{Barents Sea land shapes.}
+\title{Barents Sea land shapes}
 \format{
-SpatialPolygonsDataFrame land shapes for the Barents Sea in UTM 36N projection (+init=epsg:32636). Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
+\code{\link[sp]{SpatialPolygonsDataFrame}} land shapes for the Barents Sea in UTM 36N projection (+init=epsg:32636). Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
 }
 \source{
 \href{http://www.naturalearthdata.com/}{Natural Earth Data}
@@ -14,11 +14,9 @@ SpatialPolygonsDataFrame land shapes for the Barents Sea in UTM 36N projection (
 bs_land
 }
 \description{
-Barents Sea land shapes.
+Barents Sea land shapes
 }
 \seealso{
-\code{\link{basemap}}
-
 Other shapefiles: 
 \code{\link{antarctic_bathy}},
 \code{\link{antarctic_glacier}},
@@ -35,5 +33,4 @@ Other shapefiles:
 }
 \concept{shapefiles}
 \keyword{datasets}
-\keyword{internal}
 \keyword{shapefiles}

@@ -3,9 +3,9 @@
 \docType{data}
 \name{dd_glacier}
 \alias{dd_glacier}
-\title{Decimal degree glacier shapes.}
+\title{Decimal degree glacier shapes}
 \format{
-SpatialPolygonsDataFrame glacier shapes in decimal degrees (+init=epsg:4326). Contains latitudes between -70 and 70 degrees. Obtained from Natural Earth Data (10m vectors). Includes the ice-sheets dataset.
+\code{\link[sp]{SpatialPolygonsDataFrame}} glacier shapes in decimal degrees (+init=epsg:4326). Contains latitudes between -70 and 70 degrees. Obtained from Natural Earth Data (10m vectors). Includes the ice-sheets dataset.
 }
 \source{
 \href{http://www.naturalearthdata.com/}{Natural Earth Data}
@@ -14,11 +14,9 @@ SpatialPolygonsDataFrame glacier shapes in decimal degrees (+init=epsg:4326). Co
 dd_glacier
 }
 \description{
-Decimal degree glacier shapes.
+Decimal degree glacier shapes
 }
 \seealso{
-\code{\link{basemap}}
-
 Other shapefiles: 
 \code{\link{antarctic_bathy}},
 \code{\link{antarctic_glacier}},
@@ -35,5 +33,4 @@ Other shapefiles:
 }
 \concept{shapefiles}
 \keyword{datasets}
-\keyword{internal}
 \keyword{shapefiles}

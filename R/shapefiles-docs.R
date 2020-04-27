@@ -1,130 +1,129 @@
 #' @title Arctic Stereographic bathymetry
 #' @docType data
-#' @keywords datasets shapefiles internal
+#' @keywords datasets shapefiles
 #' @family shapefiles
 #' @name arctic_bathy
-#' @format SpatialPolygonsDataFrame bathymetry in Arctic Stereographic projection (+init=epsg:3995). Contains latitudes between 30 and 90 degrees. eneralized from ETOPO1 grid.
-#' @source \href{https://doi.org/10.7289/V5C8276M}{ETOPO1 1 Arc-Minute Global Relief Model}
-#' @import ggOceanMaps
-#' @seealso \code{\link{basemap}}
+#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} bathymetry in Arctic Stereographic projection (+init=epsg:3995). Contains latitudes between 30 and 90 degrees. eneralized from ETOPO1 grid.
+#' @source \href{https://doi.org/10.7289/V5C8276M}{Amante, C. and B.W. Eakins, 2009. ETOPO1 1 Arc-Minute Global Relief Model: Procedures, Data Sources and Analysis. NOAA Technical Memorandum NESDIS NGDC-24. National Geophysical Data Center, NOAA}
+#' @import sp
 "arctic_bathy"
 
 #' @title Antarctic Stereographic bathymetry
 #' @docType data
-#' @keywords datasets shapefiles internal
+#' @keywords datasets shapefiles
 #' @family shapefiles
 #' @name antarctic_bathy
-#' @format SpatialPolygonsDataFrame bathymetry in Antarctic Stereographic projection (+init=epsg:3031). Contains latitudes between -80 and -30 degrees. Generalized from ETOPO1 grid.
-#' @source \href{https://doi.org/10.7289/V5C8276M}{ETOPO1 1 Arc-Minute Global Relief Model}
-#' @seealso \code{\link{basemap}}
+#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} bathymetry in Antarctic Stereographic projection (+init=epsg:3031). Contains latitudes between -80 and -30 degrees. Generalized from ETOPO1 grid.
+#' @source \href{https://doi.org/10.7289/V5C8276M}{Amante, C. and B.W. Eakins, 2009. ETOPO1 1 Arc-Minute Global Relief Model: Procedures, Data Sources and Analysis. NOAA Technical Memorandum NESDIS NGDC-24. National Geophysical Data Center, NOAA}
+#' @import sp
 "antarctic_bathy"
 
 #' @title Decimal degree bathymetry
 #' @docType data
-#' @keywords datasets shapefiles internal
+#' @keywords datasets shapefiles
 #' @family shapefiles
 #' @name dd_bathy
-#' @format SpatialPolygonsDataFrame bathymetry in decimal degrees (+init=epsg:4326). Contains latitudes between -70 and 70 degrees. Generalized from ETOPO1 grid.
-#' @source \href{https://doi.org/10.7289/V5C8276M}{ETOPO1 1 Arc-Minute Global Relief Model}
-#' @seealso \code{\link{basemap}}
+#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} bathymetry in decimal degrees (+init=epsg:4326). Contains latitudes between -70 and 70 degrees. Generalized from ETOPO1 grid.
+#' @source \href{https://doi.org/10.7289/V5C8276M}{Amante, C. and B.W. Eakins, 2009. ETOPO1 1 Arc-Minute Global Relief Model: Procedures, Data Sources and Analysis. NOAA Technical Memorandum NESDIS NGDC-24. National Geophysical Data Center, NOAA}
+#' @import sp
 "dd_bathy"
 
 #' @title Barents Sea bathymetry
 #' @docType data
-#' @keywords datasets shapefiles internal
+#' @keywords datasets shapefiles
 #' @family shapefiles
 #' @name bs_bathy
-#' @format SpatialPolygonsDataFrame bathymetry for the Barents Sea in UTM 36N projection (+init=epsg:32636). Generalized from ETOPO1 grid.
-#' @source \href{https://doi.org/10.7289/V5C8276M}{ETOPO1 1 Arc-Minute Global Relief Model}
-#' @seealso \code{\link{basemap}}
+#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} bathymetry for the Barents Sea in UTM 36N projection (+init=epsg:32636). Generalized from ETOPO1 grid.
+#' @source \href{https://doi.org/10.7289/V5C8276M}{Amante, C. and B.W. Eakins, 2009. ETOPO1 1 Arc-Minute Global Relief Model: Procedures, Data Sources and Analysis. NOAA Technical Memorandum NESDIS NGDC-24. National Geophysical Data Center, NOAA}
+#' @import sp
 "bs_bathy"
 
-#' @title Arctic Stereographic land shapes.
+#' @title Arctic Stereographic land shapes
 #' @docType data
-#' @keywords datasets shapefiles internal
+#' @keywords datasets shapefiles
 #' @family shapefiles
 #' @name arctic_land
-#' @format SpatialPolygonsDataFrame land shapes in Arctic Stereographic projection (+init=epsg:3995). Contains latitudes between 30 and 90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
+#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} land shapes in Arctic Stereographic projection (+init=epsg:3995). Contains latitudes between 30 and 90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
 #' @source \href{http://www.naturalearthdata.com/}{Natural Earth Data}
-#' @seealso \code{\link{basemap}}
+#' @import sp
 "arctic_land"
 
-#' @title Antarctic Stereographic land shapes.
+#' @title Antarctic Stereographic land shapes
 #' @docType data
-#' @keywords datasets shapefiles internal
+#' @keywords datasets shapefiles
 #' @family shapefiles
 #' @name antarctic_land
-#' @format SpatialPolygonsDataFrame land shapes in Antarctic Stereographic projection (+init=epsg:3031). Contains latitudes between -30 and -90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
+#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} land shapes in Antarctic Stereographic projection (+init=epsg:3031). Contains latitudes between -30 and -90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
 #' @source \href{http://www.naturalearthdata.com/}{Natural Earth Data}
-#' @seealso \code{\link{basemap}}
+#' @import sp
 "antarctic_land"
 
-#' @title Decimal degree land shapes.
+#' @title Decimal degree land shapes
 #' @docType data
-#' @keywords datasets shapefiles internal
+#' @keywords datasets shapefiles
 #' @family shapefiles
 #' @name dd_land
-#' @format SpatialPolygonsDataFrame land shapes in decimal degrees (+init=epsg:4326). Contains latitudes between -70 and 70 degrees. Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
+#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} land shapes in decimal degrees (+init=epsg:4326). Contains latitudes between -70 and 70 degrees. Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
 #' @source \href{http://www.naturalearthdata.com/}{Natural Earth Data}
-#' @seealso \code{\link{basemap}}
+#' @import sp
 "dd_land"
 
-#' @title Barents Sea land shapes.
+#' @title Barents Sea land shapes
 #' @docType data
-#' @keywords datasets shapefiles internal
+#' @keywords datasets shapefiles
 #' @family shapefiles
 #' @name bs_land
-#' @format SpatialPolygonsDataFrame land shapes for the Barents Sea in UTM 36N projection (+init=epsg:32636). Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
+#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} land shapes for the Barents Sea in UTM 36N projection (+init=epsg:32636). Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
 #' @source \href{http://www.naturalearthdata.com/}{Natural Earth Data}
-#' @seealso \code{\link{basemap}}
+#' @import sp
 "bs_land"
 
-#' @title Arctic Stereographic glacier shapes.
+#' @title Arctic Stereographic glacier shapes
 #' @docType data
-#' @keywords datasets shapefiles internal
+#' @keywords datasets shapefiles
 #' @family shapefiles
 #' @name arctic_glacier
-#' @format SpatialPolygonsDataFrame glacier shapes in Arctic Stereographic projection (+init=epsg:3995). Contains latitudes between 30 and 90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the ice-sheets dataset.
+#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} glacier shapes in Arctic Stereographic projection (+init=epsg:3995). Contains latitudes between 30 and 90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the ice-sheets dataset.
 #' @source \href{http://www.naturalearthdata.com/}{Natural Earth Data}
-#' @seealso \code{\link{basemap}}
+#' @import sp
 "arctic_glacier"
 
-#' @title Antarctic Stereographic glacier shapes.
+#' @title Antarctic Stereographic glacier shapes
 #' @docType data
-#' @keywords datasets shapefiles internal
+#' @keywords datasets shapefiles
 #' @family shapefiles
 #' @name antarctic_glacier
-#' @format SpatialPolygonsDataFrame glacier shapes in Antarctic Stereographic projection (+init=epsg:3031). Contains latitudes between -30 and -90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the ice-sheets dataset.
+#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} glacier shapes in Antarctic Stereographic projection (+init=epsg:3031). Contains latitudes between -30 and -90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the ice-sheets dataset.
 #' @source \href{http://www.naturalearthdata.com/}{Natural Earth Data}
-#' @seealso \code{\link{basemap}}
+#' @import sp
 "antarctic_glacier"
 
-#' @title Decimal degree glacier shapes.
+#' @title Decimal degree glacier shapes
 #' @docType data
-#' @keywords datasets shapefiles internal
+#' @keywords datasets shapefiles
 #' @family shapefiles
 #' @name dd_glacier
-#' @format SpatialPolygonsDataFrame glacier shapes in decimal degrees (+init=epsg:4326). Contains latitudes between -70 and 70 degrees. Obtained from Natural Earth Data (10m vectors). Includes the ice-sheets dataset.
+#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} glacier shapes in decimal degrees (+init=epsg:4326). Contains latitudes between -70 and 70 degrees. Obtained from Natural Earth Data (10m vectors). Includes the ice-sheets dataset.
 #' @source \href{http://www.naturalearthdata.com/}{Natural Earth Data}
-#' @seealso \code{\link{basemap}}
+#' @import sp
 "dd_glacier"
 
-#' @title Barents Sea glacier shapes.
+#' @title Barents Sea glacier shapes
 #' @docType data
-#' @keywords datasets shapefiles internal
+#' @keywords datasets shapefiles
 #' @family shapefiles
 #' @name bs_glacier
-#' @format SpatialPolygonsDataFrame glacier shapes for the Barents Sea in UTM 36N projection (+init=epsg:32636). Obtained from Natural Earth Data (10m vectors).
+#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} glacier shapes for the Barents Sea in UTM 36N projection (+init=epsg:32636). Obtained from Natural Earth Data (10m vectors).
 #' @source \href{http://www.naturalearthdata.com/}{Natural Earth Data}
-#' @seealso \code{\link{basemap}}
+#' @import sp
 "bs_glacier"
 
 #' @title Major fishing zones of Norway
 #' @docType data
-#' @keywords datasets shapefiles internal
+#' @keywords datasets shapefiles
 #' @family shapefiles
 #' @name fishingAreasNor
-#' @format SpatialPolygonsDataFrame in decimal degrees (+init=epsg:4326) containing major fishing zones defined by the Norwegian Directorate of Fisheries.
+#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} in decimal degrees (+init=epsg:4326) containing major fishing zones defined by the Norwegian Directorate of Fisheries.
 #' @source \href{https://kart.fiskeridir.no/stat}{Norwegian Directorate of Fisheries}
-#' @seealso \code{\link{basemap}}
+#' @import sp
 "fishingAreasNor"

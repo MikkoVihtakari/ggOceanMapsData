@@ -3,9 +3,9 @@
 \docType{data}
 \name{dd_land}
 \alias{dd_land}
-\title{Decimal degree land shapes.}
+\title{Decimal degree land shapes}
 \format{
-SpatialPolygonsDataFrame land shapes in decimal degrees (+init=epsg:4326). Contains latitudes between -70 and 70 degrees. Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
+\code{\link[sp]{SpatialPolygonsDataFrame}} land shapes in decimal degrees (+init=epsg:4326). Contains latitudes between -70 and 70 degrees. Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
 }
 \source{
 \href{http://www.naturalearthdata.com/}{Natural Earth Data}
@@ -14,11 +14,9 @@ SpatialPolygonsDataFrame land shapes in decimal degrees (+init=epsg:4326). Conta
 dd_land
 }
 \description{
-Decimal degree land shapes.
+Decimal degree land shapes
 }
 \seealso{
-\code{\link{basemap}}
-
 Other shapefiles: 
 \code{\link{antarctic_bathy}},
 \code{\link{antarctic_glacier}},
@@ -35,5 +33,4 @@ Other shapefiles:
 }
 \concept{shapefiles}
 \keyword{datasets}
-\keyword{internal}
 \keyword{shapefiles}

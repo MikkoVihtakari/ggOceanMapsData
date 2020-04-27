@@ -5,10 +5,10 @@
 \alias{arctic_bathy}
 \title{Arctic Stereographic bathymetry}
 \format{
-SpatialPolygonsDataFrame bathymetry in Arctic Stereographic projection (+init=epsg:3995). Contains latitudes between 30 and 90 degrees. eneralized from ETOPO1 grid.
+\code{\link[sp]{SpatialPolygonsDataFrame}} bathymetry in Arctic Stereographic projection (+init=epsg:3995). Contains latitudes between 30 and 90 degrees. eneralized from ETOPO1 grid.
 }
 \source{
-\href{https://doi.org/10.7289/V5C8276M}{ETOPO1 1 Arc-Minute Global Relief Model}
+\href{https://doi.org/10.7289/V5C8276M}{Amante, C. and B.W. Eakins, 2009. ETOPO1 1 Arc-Minute Global Relief Model: Procedures, Data Sources and Analysis. NOAA Technical Memorandum NESDIS NGDC-24. National Geophysical Data Center, NOAA}
 }
 \usage{
 arctic_bathy
@@ -17,8 +17,6 @@ arctic_bathy
 Arctic Stereographic bathymetry
 }
 \seealso{
-\code{\link{basemap}}
-
 Other shapefiles: 
 \code{\link{antarctic_bathy}},
 \code{\link{antarctic_glacier}},
@@ -35,5 +33,4 @@ Other shapefiles:
 }
 \concept{shapefiles}
 \keyword{datasets}
-\keyword{internal}
 \keyword{shapefiles}

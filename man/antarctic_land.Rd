@@ -3,9 +3,9 @@
 \docType{data}
 \name{antarctic_land}
 \alias{antarctic_land}
-\title{Antarctic Stereographic land shapes.}
+\title{Antarctic Stereographic land shapes}
 \format{
-SpatialPolygonsDataFrame land shapes in Antarctic Stereographic projection (+init=epsg:3031). Contains latitudes between -30 and -90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
+\code{\link[sp]{SpatialPolygonsDataFrame}} land shapes in Antarctic Stereographic projection (+init=epsg:3031). Contains latitudes between -30 and -90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
 }
 \source{
 \href{http://www.naturalearthdata.com/}{Natural Earth Data}
@@ -14,11 +14,9 @@ SpatialPolygonsDataFrame land shapes in Antarctic Stereographic projection (+ini
 antarctic_land
 }
 \description{
-Antarctic Stereographic land shapes.
+Antarctic Stereographic land shapes
 }
 \seealso{
-\code{\link{basemap}}
-
 Other shapefiles: 
 \code{\link{antarctic_bathy}},
 \code{\link{antarctic_glacier}},
@@ -35,5 +33,4 @@ Other shapefiles:
 }
 \concept{shapefiles}
 \keyword{datasets}
-\keyword{internal}
 \keyword{shapefiles}

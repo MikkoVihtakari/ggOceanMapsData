@@ -5,10 +5,10 @@
 \alias{bs_bathy}
 \title{Barents Sea bathymetry}
 \format{
-SpatialPolygonsDataFrame bathymetry for the Barents Sea in UTM 36N projection (+init=epsg:32636). Generalized from ETOPO1 grid.
+\code{\link[sp]{SpatialPolygonsDataFrame}} bathymetry for the Barents Sea in UTM 36N projection (+init=epsg:32636). Generalized from ETOPO1 grid.
 }
 \source{
-\href{https://doi.org/10.7289/V5C8276M}{ETOPO1 1 Arc-Minute Global Relief Model}
+\href{https://doi.org/10.7289/V5C8276M}{Amante, C. and B.W. Eakins, 2009. ETOPO1 1 Arc-Minute Global Relief Model: Procedures, Data Sources and Analysis. NOAA Technical Memorandum NESDIS NGDC-24. National Geophysical Data Center, NOAA}
 }
 \usage{
 bs_bathy
@@ -17,8 +17,6 @@ bs_bathy
 Barents Sea bathymetry
 }
 \seealso{
-\code{\link{basemap}}
-
 Other shapefiles: 
 \code{\link{antarctic_bathy}},
 \code{\link{antarctic_glacier}},
@@ -35,5 +33,4 @@ Other shapefiles:
 }
 \concept{shapefiles}
 \keyword{datasets}
-\keyword{internal}
 \keyword{shapefiles}

@@ -3,9 +3,9 @@
 \docType{data}
 \name{bs_glacier}
 \alias{bs_glacier}
-\title{Barents Sea glacier shapes.}
+\title{Barents Sea glacier shapes}
 \format{
-SpatialPolygonsDataFrame glacier shapes for the Barents Sea in UTM 36N projection (+init=epsg:32636). Obtained from Natural Earth Data (10m vectors).
+\code{\link[sp]{SpatialPolygonsDataFrame}} glacier shapes for the Barents Sea in UTM 36N projection (+init=epsg:32636). Obtained from Natural Earth Data (10m vectors).
 }
 \source{
 \href{http://www.naturalearthdata.com/}{Natural Earth Data}
@@ -14,11 +14,9 @@ SpatialPolygonsDataFrame glacier shapes for the Barents Sea in UTM 36N projectio
 bs_glacier
 }
 \description{
-Barents Sea glacier shapes.
+Barents Sea glacier shapes
 }
 \seealso{
-\code{\link{basemap}}
-
 Other shapefiles: 
 \code{\link{antarctic_bathy}},
 \code{\link{antarctic_glacier}},
@@ -35,5 +33,4 @@ Other shapefiles:
 }
 \concept{shapefiles}
 \keyword{datasets}
-\keyword{internal}
 \keyword{shapefiles}
