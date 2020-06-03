@@ -16,6 +16,7 @@ documentation for further information.
 \seealso{
 Useful links:
 \itemize{
+  \item \url{https://mikkovihtakari.github.io/ggOceanMaps}
   \item \url{https://github.com/MikkoVihtakari/ggOceanMapsData}
   \item Report bugs at \url{https://github.com/MikkoVihtakari/ggOceanMaps/issues}
 }
@@ -25,3 +26,4 @@ Useful links:
 \strong{Maintainer}: Mikko Vihtakari \email{mikko.vihtakari@hi.no} (\href{https://orcid.org/0000-0003-0371-4319}{ORCID}) (Institute of Marine Research)
 
 }
+\keyword{internal}

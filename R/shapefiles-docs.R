@@ -13,7 +13,7 @@
 #' @keywords datasets shapefiles
 #' @family shapefiles
 #' @name antarctic_bathy
-#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} bathymetry in Antarctic Stereographic projection (+init=epsg:3031). Contains latitudes between -80 and -30 degrees. Generalized from ETOPO1 grid.
+#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} bathymetry in Antarctic Stereographic projection (+init=epsg:3031). Contains latitudes between -80 and -20 degrees. Generalized from ETOPO1 grid.
 #' @source \href{https://doi.org/10.7289/V5C8276M}{Amante, C. and B.W. Eakins, 2009. ETOPO1 1 Arc-Minute Global Relief Model: Procedures, Data Sources and Analysis. NOAA Technical Memorandum NESDIS NGDC-24. National Geophysical Data Center, NOAA}
 #' @import sp
 "antarctic_bathy"
@@ -53,7 +53,7 @@
 #' @keywords datasets shapefiles
 #' @family shapefiles
 #' @name antarctic_land
-#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} land shapes in Antarctic Stereographic projection (+init=epsg:3031). Contains latitudes between -30 and -90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
+#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} land shapes in Antarctic Stereographic projection (+init=epsg:3031). Contains latitudes between -20 and -90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
 #' @source \href{http://www.naturalearthdata.com/}{Natural Earth Data}
 #' @import sp
 "antarctic_land"
@@ -93,7 +93,7 @@
 #' @keywords datasets shapefiles
 #' @family shapefiles
 #' @name antarctic_glacier
-#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} glacier shapes in Antarctic Stereographic projection (+init=epsg:3031). Contains latitudes between -30 and -90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the ice-sheets dataset.
+#' @format \code{\link[sp]{SpatialPolygonsDataFrame}} glacier shapes in Antarctic Stereographic projection (+init=epsg:3031). Contains latitudes between -20 and -90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the ice-sheets dataset.
 #' @source \href{http://www.naturalearthdata.com/}{Natural Earth Data}
 #' @import sp
 "antarctic_glacier"

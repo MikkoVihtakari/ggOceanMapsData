@@ -6,4 +6,5 @@
 #' Policy and package size limits. Please see the 
 #' \href{https://github.com/MikkoVihtakari/ggOceanMaps}{ggOceanMaps} 
 #' documentation for further information.
+#' @keywords internal
 "_PACKAGE"

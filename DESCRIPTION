@@ -1,16 +1,18 @@
 Package: ggOceanMapsData
 Type: Package
 Title: Spatial Data Repository for 'ggOceanMaps'
-Version: 0.1.4
+Version: 0.3.0
 Date: 2020-04-27
 Authors@R: c(person("Mikko", "Vihtakari", email = "mikko.vihtakari@hi.no",
                   role = c("aut", "cre"), 
                   comment = c(affiliation = "Institute of Marine Research", 
                   ORCID = "0000-0003-0371-4319")))
-URL: https://github.com/MikkoVihtakari/ggOceanMapsData
+URL: https://mikkovihtakari.github.io/ggOceanMaps, https://github.com/MikkoVihtakari/ggOceanMapsData
 BugReports: https://github.com/MikkoVihtakari/ggOceanMaps/issues
 Description: A data package for 'ggOceanMaps' containing low-resolution 
-  shapefiles.
+  shapefiles. The shapefiles are generated from open repositories 
+  (Natural Earth Data <https://www.naturalearthdata.com/>, 
+  Amante C. and B.W. Eakins 2009 <doi:10.7289/V5C8276M>).
 Depends: R (>= 3.5.0)
 Imports: sp
 License: GPL-3 | file LICENSE

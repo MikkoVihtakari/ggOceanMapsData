@@ -5,7 +5,7 @@
 \alias{antarctic_glacier}
 \title{Antarctic Stereographic glacier shapes}
 \format{
-\code{\link[sp]{SpatialPolygonsDataFrame}} glacier shapes in Antarctic Stereographic projection (+init=epsg:3031). Contains latitudes between -30 and -90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the ice-sheets dataset.
+\code{\link[sp]{SpatialPolygonsDataFrame}} glacier shapes in Antarctic Stereographic projection (+init=epsg:3031). Contains latitudes between -20 and -90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the ice-sheets dataset.
 }
 \source{
 \href{http://www.naturalearthdata.com/}{Natural Earth Data}
