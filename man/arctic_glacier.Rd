@@ -5,7 +5,7 @@
 \alias{arctic_glacier}
 \title{Arctic Stereographic glacier shapes}
 \format{
-\code{\link[sp]{SpatialPolygonsDataFrame}} glacier shapes in Arctic Stereographic projection (+init=epsg:3995). Contains latitudes between 30 and 90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the ice-sheets dataset.
+\code{\link[sp:SpatialPolygons]{SpatialPolygonsDataFrame}} glacier shapes in Arctic Stereographic projection (+init=epsg:3995). Contains latitudes between 30 and 90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the ice-sheets dataset.
 }
 \source{
 \href{http://www.naturalearthdata.com/}{Natural Earth Data}

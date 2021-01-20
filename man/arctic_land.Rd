@@ -5,7 +5,7 @@
 \alias{arctic_land}
 \title{Arctic Stereographic land shapes}
 \format{
-\code{\link[sp]{SpatialPolygonsDataFrame}} land shapes in Arctic Stereographic projection (+init=epsg:3995). Contains latitudes between 30 and 90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
+\code{\link[sp:SpatialPolygons]{SpatialPolygonsDataFrame}} land shapes in Arctic Stereographic projection (+init=epsg:3995). Contains latitudes between 30 and 90 degrees. Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
 }
 \source{
 \href{http://www.naturalearthdata.com/}{Natural Earth Data}

@@ -5,7 +5,7 @@
 \alias{fishingAreasNor}
 \title{Major fishing zones of Norway}
 \format{
-\code{\link[sp]{SpatialPolygonsDataFrame}} in decimal degrees (+init=epsg:4326) containing major fishing zones defined by the Norwegian Directorate of Fisheries.
+\code{\link[sp:SpatialPolygons]{SpatialPolygonsDataFrame}} in decimal degrees (+init=epsg:4326) containing major fishing zones defined by the Norwegian Directorate of Fisheries.
 }
 \source{
 \href{https://kart.fiskeridir.no/stat}{Norwegian Directorate of Fisheries}
