@@ -8,7 +8,7 @@
 \code{\link[sp:SpatialPolygons]{SpatialPolygonsDataFrame}} land shapes in decimal degrees (+init=epsg:4326). Contains latitudes between -70 and 70 degrees. Obtained from Natural Earth Data (10m vectors). Includes the islands dataset.
 }
 \source{
-\href{http://www.naturalearthdata.com/}{Natural Earth Data}
+\href{https://www.naturalearthdata.com/}{Natural Earth Data}
 }
 \usage{
 dd_land

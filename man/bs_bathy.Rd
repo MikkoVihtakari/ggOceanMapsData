@@ -8,7 +8,7 @@
 \code{\link[sp:SpatialPolygons]{SpatialPolygonsDataFrame}} bathymetry for the Barents Sea in UTM 36N projection (+init=epsg:32636). Generalized from ETOPO1 grid.
 }
 \source{
-\href{https://doi.org/10.7289/V5C8276M}{Amante, C. and B.W. Eakins, 2009. ETOPO1 1 Arc-Minute Global Relief Model: Procedures, Data Sources and Analysis. NOAA Technical Memorandum NESDIS NGDC-24. National Geophysical Data Center, NOAA}
+Amante, C. and B.W. Eakins, 2009. ETOPO1 1 Arc-Minute Global Relief Model: Procedures, Data Sources and Analysis. NOAA Technical Memorandum NESDIS NGDC-24. National Geophysical Data Center, NOAA. \doi{10.7289/V5C8276M}
 }
 \usage{
 bs_bathy

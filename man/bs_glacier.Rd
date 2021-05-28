@@ -8,7 +8,7 @@
 \code{\link[sp:SpatialPolygons]{SpatialPolygonsDataFrame}} glacier shapes for the Barents Sea in UTM 36N projection (+init=epsg:32636). Obtained from Natural Earth Data (10m vectors).
 }
 \source{
-\href{http://www.naturalearthdata.com/}{Natural Earth Data}
+\href{https://www.naturalearthdata.com/}{Natural Earth Data}
 }
 \usage{
 bs_glacier
