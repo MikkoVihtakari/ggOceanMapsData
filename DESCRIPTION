@@ -1,8 +1,8 @@
 Package: ggOceanMapsData
 Type: Package
 Title: Spatial Data Repository for 'ggOceanMaps'
-Version: 1.2
-Date: 2021-05-28
+Version: 1.3
+Date: 2022-07-01
 Authors@R: c(person("Mikko", "Vihtakari", email = "mikko.vihtakari@hi.no",
                   role = c("aut", "cre"), 
                   comment = c(affiliation = "Institute of Marine Research", 
@@ -14,9 +14,9 @@ Description: A data package for 'ggOceanMaps' containing low-resolution
   (Natural Earth Data <https://www.naturalearthdata.com/>, 
   Amante C. and B.W. Eakins 2009 <doi:10.7289/V5C8276M>).
 Depends: R (>= 3.5.0)
-Imports: sp
+Imports: sp, sf
 License: GPL-3 | file LICENSE
 Encoding: UTF-8
 LazyData: true
 LazyDataCompression: xz
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.0

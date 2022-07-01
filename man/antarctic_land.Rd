@@ -17,7 +17,7 @@ antarctic_land
 Antarctic Stereographic land shapes
 }
 \seealso{
-Other shapefiles: 
+Other mapfiles: 
 \code{\link{antarctic_bathy}},
 \code{\link{antarctic_glacier}},
 \code{\link{arctic_bathy}},
@@ -28,9 +28,8 @@ Other shapefiles:
 \code{\link{bs_land}},
 \code{\link{dd_bathy}},
 \code{\link{dd_glacier}},
-\code{\link{dd_land}},
-\code{\link{fishingAreasNor}}
+\code{\link{dd_land}}
 }
-\concept{shapefiles}
-\keyword{datasets}
+\concept{mapfiles}
+\keyword{maps}
 \keyword{shapefiles}

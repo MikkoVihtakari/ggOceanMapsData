@@ -5,7 +5,7 @@
 \alias{fishingAreasNor}
 \title{Major fishing zones of Norway}
 \format{
-\code{\link[sp:SpatialPolygons]{SpatialPolygonsDataFrame}} in decimal degrees (+init=epsg:4326) containing major fishing zones defined by the Norwegian Directorate of Fisheries.
+\code{\link[sf:st_sfc]{sf object}} in decimal degrees (EPSG:4326) containing major fishing zones defined by the Norwegian Directorate of Fisheries.
 }
 \source{
 \href{https://kart.fiskeridir.no/stat}{Norwegian Directorate of Fisheries}
@@ -17,20 +17,10 @@ fishingAreasNor
 Major fishing zones of Norway
 }
 \seealso{
-Other shapefiles: 
-\code{\link{antarctic_bathy}},
-\code{\link{antarctic_glacier}},
-\code{\link{antarctic_land}},
-\code{\link{arctic_bathy}},
-\code{\link{arctic_glacier}},
-\code{\link{arctic_land}},
-\code{\link{bs_bathy}},
-\code{\link{bs_glacier}},
-\code{\link{bs_land}},
-\code{\link{dd_bathy}},
-\code{\link{dd_glacier}},
-\code{\link{dd_land}}
+Other datasets: 
+\code{\link{ices_areas}}
 }
-\concept{shapefiles}
+\concept{datasets}
 \keyword{datasets}
+\keyword{fishery}
 \keyword{shapefiles}
