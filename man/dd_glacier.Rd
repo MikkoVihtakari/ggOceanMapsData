@@ -5,7 +5,7 @@
 \alias{dd_glacier}
 \title{Decimal degree glacier shapes}
 \format{
-\code{\link[sp:SpatialPolygons]{SpatialPolygonsDataFrame}} glacier shapes in decimal degrees (+init=epsg:4326). Contains latitudes between -70 and 70 degrees. Obtained from Natural Earth Data (10m vectors). Includes the ice-sheets dataset.
+\code{\link[sp:SpatialPolygons]{SpatialPolygonsDataFrame}} glacier shapes in decimal degrees (EPSG:4326). Contains latitudes between -70 and 70 degrees. Obtained from Natural Earth Data (10m vectors). Includes the ice-sheets dataset.
 }
 \source{
 \href{https://www.naturalearthdata.com/}{Natural Earth Data}

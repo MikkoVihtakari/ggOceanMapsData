@@ -5,7 +5,7 @@
 \alias{dd_bathy}
 \title{Decimal degree bathymetry}
 \format{
-\code{\link[sp:SpatialPolygons]{SpatialPolygonsDataFrame}} bathymetry in decimal degrees (+init=epsg:4326). Contains latitudes between -70 and 70 degrees. Generalized from ETOPO1 grid.
+\code{\link[sp:SpatialPolygons]{SpatialPolygonsDataFrame}} bathymetry in decimal degrees (EPSG:4326). Contains latitudes between -70 and 70 degrees. Generalized from ETOPO1 grid.
 }
 \source{
 Amante, C. and B.W. Eakins, 2009. ETOPO1 1 Arc-Minute Global Relief Model: Procedures, Data Sources and Analysis. NOAA Technical Memorandum NESDIS NGDC-24. National Geophysical Data Center, NOAA. \doi{10.7289/V5C8276M}
